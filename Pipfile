@@ -8,6 +8,8 @@ verify_ssl = true
 [packages]
 django = "==2.2.6"
 django-environ = "==0.4.5"
+nodejs = "==0.1.1"
+npm = "==0.1.1"
 
 [requires]
 python_version = "3.7"
