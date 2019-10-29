@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "bootstrap-sass": "^3.4.1",
+    "node-sass": "^4.13.0"
+  },
+  "scripts": {
+    "scss": "node-sass --watch static/scss -o static/css"
+  }
+}
