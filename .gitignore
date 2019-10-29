@@ -319,4 +319,4 @@ gen### Dropbox template
 db
 
 #Css files
-*css
+*.css
