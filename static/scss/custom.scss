@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import "../../node_modules/bootstrap-scss/bootstrap";
+@import "_variables";
+
+
+.footer {
+    background-color: $background-color;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 1em;
+
+    a {
+    color: $a-font-color;
+    font-weight: bold;
+  }
+
+  hr {
+    color: $hr-color;
+    width: 75%;
+  }
+
+}
