@@ -15,19 +15,19 @@
   clear: both;
 
   a {
-    color: $a-font-color;
+    color: $link-color;
     font-weight: bold;
   }
 
   hr {
-    color: $hr-color;
+    color: $hr-border-color;
     width: 75%;
   }
 }
 
 .menu {
   a {
-    color: $a-font-color;
+    color: $link-color;
     font-size: $font-size;
   }
 
