@@ -12,6 +12,7 @@
   bottom: 0;
   width: 100%;
   padding-top: 1em;
+  height: fit-content;
 
   a {
     color: $a-font-color;
@@ -32,6 +33,31 @@
 
   a:hover {
     color: $hover-color;
-    border-bottom: 2px solid $hover-color
+    font-weight: bold;
   }
 }
+
+.introduction {
+  background-color: $introduction-background-color;
+  font-family: 'Montserrat', sans-serif;
+  height: fit-content;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about {
+  font-family: 'Montserrat', sans-serif;
+  height: fit-content;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  .jumbotron {
+    background-color: white;
+  }
+}
+
+.purple_header {
+  font-weight: bold;
+  color: $hover-color;
+  }
+
