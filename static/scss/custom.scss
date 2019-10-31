@@ -1,37 +1,58 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import "variables";
 @import "../../node_modules/bootstrap-scss/bootstrap";
-@import "_variables";
-
 
 .footer {
   background-color: $background-color;
-  font-family: 'Montserrat', sans-serif;
-  font-size: $font-size;
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
   padding-top: 1em;
+  clear: both;
 
   a {
-    color: $a-font-color;
+    color: $link-color;
     font-weight: bold;
   }
 
   hr {
-    color: $hr-color;
+    color: $hr-border-color;
     width: 75%;
   }
 }
 
 .menu {
+  padding-bottom: 30px;
+  padding-top: 30px;
+
   a {
-    color: $a-font-color;
-    font-size: $font-size;
+    color: $link-color;
   }
 
   a:hover {
     color: $hover-color;
-    border-bottom: 2px solid $hover-color
+    font-weight: bold;
   }
 }
+
+.introduction {
+  background-color: $introduction-background-color;
+  height: fit-content;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about {
+  height: fit-content;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  .jumbotron {
+    background-color: white;
+  }
+}
+
+.purple_header {
+  font-weight: bold;
+  color: $hover-color;
+  }

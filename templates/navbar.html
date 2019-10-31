@@ -1,24 +1,22 @@
-<header>
-    <nav class="nav menu">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-11">
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">PROJECTS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
+<nav class="nav menu">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-11">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'index' %}">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'about' %}">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </nav>
-</header>
+    </div>
+</nav>
