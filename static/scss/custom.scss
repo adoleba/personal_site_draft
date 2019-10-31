@@ -1,6 +1,7 @@
 @import "variables";
 @import "../../node_modules/bootstrap-scss/bootstrap";
 
+
 .footer {
   background-color: $background-color;
   position: relative;
@@ -47,12 +48,39 @@
   padding-top: 50px;
   padding-bottom: 50px;
 
-  .jumbotron {
-    background-color: white;
+  h1 {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
   }
+
+  p {
+    padding-bottom: 1em;
+  }
+}
+
+.underline-purple {
+  border-bottom: 3px solid $hover-color;
+  width: 50%;
+  padding-bottom: 0.5em;
+}
+
+.underline-black {
+  border-bottom: 3px solid black;
+  width: fit-content;
+  padding-bottom: 0.3em;
+}
+
+.jumbotron {
+  background-color: white;
 }
 
 .purple_header {
   font-weight: bold;
   color: $hover-color;
   }
+
+.bold-hover {
+  a:hover {
+    font-weight: bold;
+  }
+}
