@@ -1,11 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-@import "../../node_modules/bootstrap-scss/bootstrap";
 @import "_variables";
-
-
-body {
-  font-family: 'Montserrat', sans-serif;
-}
+@import "../../node_modules/bootstrap-scss/bootstrap";
 
 .footer {
   background-color: $background-color;
