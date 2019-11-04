@@ -1,9 +1,12 @@
+from django.core.mail import EmailMessage
 from django.shortcuts import render
+from django.template.loader import get_template
 from django.urls import reverse_lazy
 from django.views.generic import FormView, DetailView
 from django.views.generic.base import View
 
 from contact.forms import ContactForm
+from personal_site import settings
 
 
 class ContactView(FormView):
@@ -16,7 +19,19 @@ class ContactView(FormView):
         return super().form_valid(form)
 
     def send_mail(self, valid_data):
-        pass
+        template = get_template('contact/email.html')
+        context = valid_data
+        content = template.render(context)
+
+        email = EmailMessage(
+            "Wiadomość z formularza kontaktowego",
+            content,
+            str(valid_data['name']),
+            [settings.EMAIL_HOST_USER],
+            headers={'Reply-To': valid_data['email']}
+        )
+        email.content_subtype = 'html'
+        email.send()
 
 
 class ThankYouView(View):
