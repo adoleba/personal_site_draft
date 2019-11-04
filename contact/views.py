@@ -1,10 +1,9 @@
-from django.shortcuts import render
+from django.shortcuts import redirect
+from django.views.generic import FormView
 
 from contact.forms import ContactForm
 
 
-def contact(request):
-
-    form = ContactForm()
-
-    return render(request, 'contact/contact.html', {'form': form})
+class ContactView(FormView):
+    form_class = ContactForm
+    template_name = 'contact/contact.html'
