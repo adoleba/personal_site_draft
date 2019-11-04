@@ -20,8 +20,7 @@ class ContactView(FormView):
 
     def send_mail(self, valid_data):
         template = get_template('contact/email.html')
-        context = valid_data
-        content = template.render(context)
+        content = template.render(valid_data)
 
         email = EmailMessage(
             "Wiadomość z formularza kontaktowego",
