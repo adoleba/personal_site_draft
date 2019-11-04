@@ -3,7 +3,10 @@
 {% load static %}
 
 {% block content %}
-    <h1>test</h1>
-    <p>test 2</p>
+    <form action="." method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button>Wyślij</button>
+    </form>
 
 {% endblock %}
