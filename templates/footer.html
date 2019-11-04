@@ -1,6 +1,6 @@
 <footer class="footer">
     <div class="container-fluid">
-        <ul class="nav justify-content-center">
+        <ul class="nav justify-content-center pt-4">
             <li class="nav-item">
                 <a class="nav-link" href="{% url 'index' %}">HOME</a>
             </li>
@@ -8,17 +8,18 @@
                 <a class="nav-link" href="{% url 'about' %}">ABOUT</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">PROJECTS</a>
+                <a class="nav-link" href="{% url 'projects' %}">PROJECTS</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">CONTACT</a>
             </li>
         </ul>
 
-        <hr>
 
-        <p class="text-center font-weight-bold">&copy; 2019</p>
-
+    </div>
+    <div class="pb-2">
+        <div class="grey-hr py-2"></div>
+        <p class="text-center font-weight-bold mb-0 pt-4">&copy; 2019</p>
     </div>
 </footer>
 

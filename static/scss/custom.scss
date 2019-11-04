@@ -1,29 +1,21 @@
 @import "variables";
 @import "../../node_modules/bootstrap-scss/bootstrap";
 
+
 .footer {
   background-color: $background-color;
   position: relative;
   left: 0;
-  bottom: 0;
   width: 100%;
-  padding-top: 1em;
   clear: both;
 
   a {
     color: $link-color;
     font-weight: bold;
   }
-
-  hr {
-    color: $hr-border-color;
-    width: 75%;
-  }
 }
 
 .menu {
-  padding-bottom: 30px;
-  padding-top: 30px;
 
   a {
     color: $link-color;
@@ -37,22 +29,33 @@
 
 .introduction {
   background-color: $introduction-background-color;
-  height: fit-content;
-  padding-top: 50px;
-  padding-bottom: 50px;
 }
 
-.about {
-  height: fit-content;
-  padding-top: 50px;
-  padding-bottom: 50px;
+.underline-purple {
+  border-bottom: 3px solid $hover-color;
+  width: 33%;
+}
 
-  .jumbotron {
-    background-color: white;
-  }
+.underline-black {
+  border-bottom: 3px solid black;
+  width: fit-content;
 }
 
 .purple_header {
   font-weight: bold;
   color: $hover-color;
+  }
+
+.bold-hover {
+  a:hover {
+    font-weight: bold;
+  }
+}
+
+.grey-hr {
+  border-bottom: 1px solid;
+  color: $hr-border-color;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
   }
