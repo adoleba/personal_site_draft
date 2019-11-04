@@ -29,11 +29,6 @@
 
 .introduction {
   background-color: $introduction-background-color;
-  height: fit-content;
-}
-
-.about {
-  height: fit-content;
 }
 
 .underline-purple {
@@ -44,10 +39,6 @@
 .underline-black {
   border-bottom: 3px solid black;
   width: fit-content;
-}
-
-.jumbotron {
-  background-color: white;
 }
 
 .purple_header {
@@ -67,5 +58,4 @@
   margin-left: 15%;
   margin-right: 15%;
   text-align: center;
-
   }
