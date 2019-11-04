@@ -11,6 +11,13 @@ class ContactView(FormView):
     template_name = 'contact/contact.html'
     success_url = reverse_lazy('contact:thank_you')
 
+    def form_valid(self, form):
+        self.send_mail(form.cleaned_data)
+        return super().form_valid(form)
+
+    def send_mail(self, valid_data):
+        pass
+
 
 class ThankYouView(View):
 
