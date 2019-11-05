@@ -60,3 +60,22 @@
   margin-right: 15%;
   text-align: center;
   }
+
+.contact-form {
+  background-color: $background-color;
+  color: $link-color;
+}
+
+.btn-black {
+  letter-spacing: 2px;
+  font-weight: bold;
+  background: $hover-color;
+  border-color: $hover-color;
+  color: #fff
+}
+
+.btn-black:hover {
+  background: white;
+  color: $hover-color
+}
+
