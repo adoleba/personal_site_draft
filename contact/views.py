@@ -1,4 +1,6 @@
+from django.contrib import messages
 from django.core.mail import EmailMessage
+from django.http import request
 from django.shortcuts import render
 from django.template.loader import get_template
 from django.urls import reverse_lazy
@@ -17,6 +19,12 @@ class ContactView(FormView):
     def form_valid(self, form):
         self.send_mail(form.cleaned_data)
         return super().form_valid(form)
+
+    def form_invalid(self, form):
+        for field in form.errors:
+            form[field].field.widget.attrs['class'] += ' error'
+        messages.error(self.request, 'Popraw zaznaczone pola')
+        return super().form_invalid(form)
 
     def send_mail(self, valid_data):
         template = get_template('contact/email.html')
