@@ -22,8 +22,10 @@ class ContactView(FormView):
 
     def form_invalid(self, form):
         for field in form.errors:
-            form[field].field.widget.attrs['class'] += ' error'
-        messages.error(self.request, 'Popraw zaznaczone pola')
+            error_message_html = form.errors[field].as_data()
+            error_message = str(error_message_html[0]).strip("[]'")
+            form[field].field.widget.attrs['class'] += ' input-error'
+            messages.error(self.request, error_message)
         return super().form_invalid(form)
 
     def send_mail(self, valid_data):
