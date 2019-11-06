@@ -1,10 +1,9 @@
 from django.contrib import messages
 from django.core.mail import EmailMessage
-from django.http import request
 from django.shortcuts import render
 from django.template.loader import get_template
 from django.urls import reverse_lazy
-from django.views.generic import FormView, DetailView
+from django.views.generic import FormView
 from django.views.generic.base import View
 
 from contact.forms import ContactForm
