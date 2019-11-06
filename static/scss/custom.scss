@@ -29,6 +29,7 @@
 
 .introduction {
   background-color: $introduction-background-color;
+  min-height: 300px;
 }
 
 .underline-purple {
@@ -59,3 +60,39 @@
   margin-right: 15%;
   text-align: center;
   }
+
+.contact-form {
+  background-color: $background-color;
+  color: $link-color;
+}
+
+.btn-purple {
+  letter-spacing: 2px;
+  font-weight: bold;
+  background: $hover-color;
+  border-color: $hover-color;
+  color: #fff
+}
+
+.btn-purple:hover {
+  background: white;
+  color: $hover-color
+}
+
+.input-error {
+  color: $font-color-error;
+  border-color: $input-error-color;
+  box-shadow: 0 0 0 0.2rem $input-error-color;
+}
+
+.error-message {
+  color: $font-color-error;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 50px white inset, $input-focus-box-shadow;
+}

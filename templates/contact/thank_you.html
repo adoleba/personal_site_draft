@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+    <section>
+        <div class="container p-5">
+            <div class="col p-5">
+                <h4 class="text-center p-5">
+                    Dziękuję za przesłanie wiadomości. <br /> Odpowiem na nią w możliwie jak najkrótszym czasie.
+                </h4>
+            </div>
+
+            <div class="col p-5">
+                <h6 class="text-center text-uppercase menu bold-hover py-1">
+                    <a href="{% url 'index' %}">Powrót na stronę główną</a>
+                </h6>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

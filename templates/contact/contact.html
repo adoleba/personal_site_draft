@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+    <section>
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="text-center">
+
+                        <h1 class="font-weight-bold pt-3 pb-2">efrtgyu</h1>
+                        <p class="text-center pt-3">test akapitu</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container p-5">
+            <div class="row d-flex justify-content-center">
+
+
+                <div class="contact-form p-5">
+                    {% if messages %}
+                        <div class="messages">
+                            {% for message in messages %}
+                                <p class="error-message font-weight-bold">{{ message}}
+                                </p>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+
+                    <form action="." method="post">
+
+                        {% csrf_token %}
+                        <p class="font-weight-bold pt-3 mb-0">Imię i nazwisko:</p>
+                            {{ form.name }}
+                        <p class="font-weight-bold pt-3 mb-0">Adres e-mail:</p>
+                            {{ form.email }}
+                        <p class="font-weight-bold pt-3 mb-0">Temat wiadomości:</p>
+                            {{ form.subject }}
+                        <p class="font-weight-bold pt-3 mb-0">Treść wiadomości:</p>
+                            {{ form.body }}<br />
+                        <div class="pt-4">
+                            <button type="submit" class="btn btn-purple text-uppercase">Wyślij</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
