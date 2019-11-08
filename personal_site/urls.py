@@ -8,12 +8,12 @@ from django.utils.translation import gettext_lazy as _
 
 
 urlpatterns = [
-    path('', include('homepage.urls')),
-
     path('admin/', admin.site.urls),
+    path('i18n/', include('django.conf.urls.i18n')),
 ]
 
 urlpatterns += i18n_patterns(
+    path('', include('homepage.urls')),
     path(_('about/'), include('about.urls')),
     path(_('contact/'), include('contact.urls')),
     path(_('projects/'), include('projects.urls')),
