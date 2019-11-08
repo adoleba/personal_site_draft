@@ -9,14 +9,16 @@ from django.utils.translation import gettext_lazy as _
 
 urlpatterns = [
     path('', include('homepage.urls')),
+
+    path('admin/', admin.site.urls),
 ]
 
 urlpatterns += i18n_patterns(
     path(_('about/'), include('about.urls')),
     path(_('contact/'), include('contact.urls')),
     path(_('projects/'), include('projects.urls')),
-    path(_('admin/'), admin.site.urls),
 )
+
 
 if settings.DEBUG:
     urlpatterns += staticfiles_urlpatterns()

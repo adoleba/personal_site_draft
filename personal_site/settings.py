@@ -116,6 +116,10 @@ LANGUAGES = (
     ('pl', _('polish')),
 )
 
+LOCALE_PATHS = (
+    [root('locale')]
+)
+
 TIME_ZONE = 'UTC'
 
 USE_I18N = True
