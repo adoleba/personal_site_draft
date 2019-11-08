@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-08 11:20+0100\n"
+"POT-Creation-Date: 2019-11-08 16:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -135,19 +135,19 @@ msgstr ""
 msgid "Back to homepage"
 msgstr ""
 
-#: templates/footer.html:7 templates/navbar.html:9
+#: templates/footer.html:7 templates/navbar.html:33
 msgid "HOME"
 msgstr ""
 
-#: templates/footer.html:10 templates/navbar.html:12
+#: templates/footer.html:10 templates/navbar.html:36
 msgid "ABOUT"
 msgstr ""
 
-#: templates/footer.html:13 templates/navbar.html:15
+#: templates/footer.html:13 templates/navbar.html:39
 msgid "PROJECTS"
 msgstr ""
 
-#: templates/footer.html:16 templates/navbar.html:18
+#: templates/footer.html:16 templates/navbar.html:42
 msgid "CONTACT"
 msgstr ""
 
@@ -161,6 +161,10 @@ msgstr ""
 
 #: templates/header.html:12
 msgid "Short page title tagline goes here aaa aaaaaaaaaa aaaaaaaaaaa"
+msgstr ""
+
+#: templates/navbar.html:17
+msgid "Choose language"
 msgstr ""
 
 #: templates/projects/projects.html:21 templates/projects/projects.html:34

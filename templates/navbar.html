@@ -1,4 +1,5 @@
 {% load i18n %}
+{% load change_language %}
 
 <nav class="nav menu py-4">
     <div class="container-fluid">
@@ -16,7 +17,7 @@
                                 {% trans "Choose language" %} </a>
                             <div class="dropdown-menu" style="border: none">
                                 {% for language in languages %}
-                                    <a class="nav-link font-weight-bold" href="/{{ language.code }}/">{{ language.name_local }}</a>
+                                    <a class="nav-link font-weight-bold" href="{% change_language language.code %}">{{ language.name_local | capfirst }}</a>
                                 {% endfor %}
                             </div>
                         </li>
