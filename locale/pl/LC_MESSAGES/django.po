@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-08 16:28+0100\n"
+"POT-Creation-Date: 2019-11-08 20:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,6 +40,10 @@ msgstr "Uzupełnij temat wiadomości"
 msgid "Please fill the content of message"
 msgstr "Uzupełnij treść wiadomości"
 
+#: contact/urls.py:12
+msgid "thank-you/"
+msgstr "dziekuje/"
+
 #: personal_site/settings.py:115
 msgid "english"
 msgstr "angielski"
@@ -54,7 +58,7 @@ msgstr "o-mnie"
 
 #: personal_site/urls.py:18
 msgid "contact/"
-msgstr "kontakt"
+msgstr "kontakt/"
 
 #: personal_site/urls.py:19
 msgid "projects/"

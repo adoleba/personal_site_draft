@@ -8,6 +8,8 @@ app_name = 'contact'
 
 urlpatterns = [
     path('', ContactView.as_view(), name='contact'),
-    path('thank-you/', ThankYouView.as_view(), name='thank_you')
+#urlpatterns += i18n_patterns(
+    path(_('thank-you/'), ThankYouView.as_view(), name='thank_you')
+#)
 ]
 
