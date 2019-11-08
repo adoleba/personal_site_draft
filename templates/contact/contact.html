@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 
 {% load static %}
+{% load i18n %}
 
 {% block content %}
     <section>
@@ -8,9 +9,8 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="text-center">
-
-                        <h1 class="font-weight-bold pt-3 pb-2">efrtgyu</h1>
-                        <p class="text-center pt-3">test akapitu</p>
+                        <h1 class="font-weight-bold pt-3 pb-2">{% trans "efrtgyu" %}</h1>
+                        <p class="text-center pt-3">{% trans "test akapitu" %}</p>
                     </div>
                 </div>
             </div>
@@ -20,8 +20,6 @@
     <section>
         <div class="container p-5">
             <div class="row d-flex justify-content-center">
-
-
                 <div class="contact-form p-5">
                     {% if messages %}
                         <div class="messages">
@@ -35,16 +33,16 @@
                     <form action="." method="post">
 
                         {% csrf_token %}
-                        <p class="font-weight-bold pt-3 mb-0">Imię i nazwisko:</p>
+                        <p class="font-weight-bold pt-3 mb-0">{% trans "Name" %}:</p>
                             {{ form.name }}
-                        <p class="font-weight-bold pt-3 mb-0">Adres e-mail:</p>
+                        <p class="font-weight-bold pt-3 mb-0">{% trans "E-mail" %}:</p>
                             {{ form.email }}
-                        <p class="font-weight-bold pt-3 mb-0">Temat wiadomości:</p>
+                        <p class="font-weight-bold pt-3 mb-0">{% trans "Subject" %}</p>
                             {{ form.subject }}
-                        <p class="font-weight-bold pt-3 mb-0">Treść wiadomości:</p>
+                        <p class="font-weight-bold pt-3 mb-0">{% trans "Content" %}</p>
                             {{ form.body }}<br />
                         <div class="pt-4">
-                            <button type="submit" class="btn btn-purple text-uppercase">Wyślij</button>
+                            <button type="submit" class="btn btn-purple text-uppercase">{% trans "Send" %}</button>
                         </div>
                     </form>
                 </div>
