@@ -10,13 +10,13 @@
                     {% get_available_languages as LANGUAGES %}
                     {% get_language_info_list for LANGUAGES as languages %}
 
-                    <ul class="nav nav-pills">
+                    <ul class="nav">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                                 {% trans "Choose language" %} </a>
-                            <div class="dropdown-menu">
+                            <div class="dropdown-menu" style="border: none">
                                 {% for language in languages %}
-                                    <a class="dropdown-item" href="/{{ language.code }}/">{{ language.name_local }} {{ language.code }}</a>
+                                    <a class="nav-link font-weight-bold" href="/{{ language.code }}/">{{ language.name_local }}</a>
                                 {% endfor %}
                             </div>
                         </li>
