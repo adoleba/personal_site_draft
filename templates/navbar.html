@@ -12,16 +12,17 @@
                     {% get_language_info_list for LANGUAGES as languages %}
 
                     <ul class="nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        <li class="nav-item dropdown" id="choose-language">
+                            <a class="nav-link dropdown-toggle" onclick="changeLanguage()" >
                                 {% trans "Choose language" %} </a>
-                            <div class="dropdown-menu" style="border: none">
+                            <div class="dropdown-menu" style="border: none; display: none" id="languages">
                                 {% for language in languages %}
-                                    <a class="nav-link font-weight-bold" href="{% change_language language.code %}">{{ language.name_local | capfirst }}</a>
+                                    <a class="nav-link font-weight-bold" href="{% change_language language.code %}">
+                                        {{ language.name_local | capfirst }}
+                                    </a>
                                 {% endfor %}
                             </div>
                         </li>
-
                     </ul>
                 </form>
             </div>
