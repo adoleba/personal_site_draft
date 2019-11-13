@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
+$font-size-base: 1rem;
 $background-color: #f9f9f9;
 $link-color: #5a5a5a;
 $hr-border-color: #ebebeb;
@@ -15,3 +15,10 @@ $input-focus-box-shadow-border-color: #CCC9FF;
 $input-focus-box-shadow:  0 0 0 0.2rem $input-focus-box-shadow-border-color;
 $input-border-radius: 0.75rem;
 $input-error-color: #FFC4C4;
+
+$navbar-padding-x: 5rem;
+$navbar-padding-y: 1rem;
+$navbar-nav-link-padding-x: 1rem;
+$navbar-brand-font-size: $font-size-base;
+$navbar-light-hover-color: $hover-color
+
