@@ -21,7 +21,7 @@
     color: $link-color;
   }
 
-  a:hover {
+  a:hover, #choose-language:hover {
     color: $hover-color;
     font-weight: bold;
   }
