@@ -10,7 +10,7 @@
           {% get_language_info_list for LANGUAGES as languages %}
 
           <ul class="nav">
-              <li class="nav-item dropdown" id="choose-language" onmouseover="changeLanguage()" onmouseout="changeLanguageOut()">
+              <li class="nav-item dropdown" id="choose-language" onclick="changeLanguage()">
                   <a class=" nav-link dropdown-toggle">
                       {% trans "Choose language" %} </a>
                   <div class="dropdown-menu" style="border: none; display: none" id="languages">
@@ -27,11 +27,11 @@
   </div>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" onclick="responsiveMenu()">
       <span class="navbar-toggler-icon"></span>
    </button>
 
-  <div class="collapse navbar-collapse " id="navbarNavDropdown">
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ml-auto mt-2 mt-lg-0 font-weight-bold">
           <li class="nav-item">
               <a class="nav-link" href="{% url 'index' %}">{% trans "HOME" %}</a>

@@ -16,9 +16,10 @@ $input-focus-box-shadow:  0 0 0 0.2rem $input-focus-box-shadow-border-color;
 $input-border-radius: 0.75rem;
 $input-error-color: #FFC4C4;
 
-$navbar-padding-x: 5rem;
+$navbar-padding-x: 3rem;
 $navbar-padding-y: 1rem;
 $navbar-nav-link-padding-x: 1rem;
 $navbar-brand-font-size: $font-size-base;
-$navbar-light-hover-color: $hover-color
+$navbar-light-hover-color: $hover-color;
 
+$navbar-light-toggler-border-color: $hover-color
