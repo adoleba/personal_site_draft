@@ -5,6 +5,9 @@ function changeLanguage() {
   } else {
     languagesList.style.display = "none";
   }
+  setTimeout(function() {
+    languagesList.style.display = "none";
+    }, 3000);
 }
 
 function responsiveMenu() {
