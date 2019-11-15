@@ -1,5 +1,7 @@
 @import "variables";
 
+@import "../../node_modules/bootstrap-scss/bootstrap";
+
 .nav-item {
     text-align: right;
 }
@@ -98,4 +100,3 @@ input:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0 50px white inset, $input-focus-box-shadow;
 }
 
-@import "../../node_modules/bootstrap-scss/bootstrap";
