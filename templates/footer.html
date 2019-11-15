@@ -1,6 +1,6 @@
 {% load i18n %}
 
-<footer class="footer page-footer font-small indigo">
+<footer class="footer">
 
   <div class="container">
       <div class="row text-center d-flex justify-content-center pt-5 mb-3">
@@ -10,24 +10,24 @@
               </h6>
           </div>
 
-      <div class="col-md-2 mb-3">
-          <h6 class="text-uppercase font-weight-bold">
-              <a href="{% url 'about' %}">{% trans "ABOUT" %}</a>
-          </h6>
-      </div>
+          <div class="col-md-2 mb-3">
+              <h6 class="text-uppercase font-weight-bold">
+                  <a href="{% url 'about' %}">{% trans "ABOUT" %}</a>
+              </h6>
+          </div>
 
-      <div class="col-md-2 mb-3">
-          <h6 class="text-uppercase font-weight-bold">
-              <a href="{% url 'projects' %}">{% trans "PROJECTS" %}</a>
-          </h6>
-      </div>
+          <div class="col-md-2 mb-3">
+              <h6 class="text-uppercase font-weight-bold">
+                  <a href="{% url 'projects' %}">{% trans "PROJECTS" %}</a>
+              </h6>
+          </div>
 
-      <div class="col-md-2 mb-3">
-          <h6 class="text-uppercase font-weight-bold">
-              <a href="{% url 'contact:contact' %}">{% trans "CONTACT" %}</a>
-          </h6>
+          <div class="col-md-2 mb-3">
+              <h6 class="text-uppercase font-weight-bold">
+                  <a href="{% url 'contact:contact' %}">{% trans "CONTACT" %}</a>
+              </h6>
+          </div>
       </div>
-    </div>
   </div>
 
   <div class="pb-2">
