@@ -1,27 +1,38 @@
 {% load i18n %}
 
 <footer class="footer">
-    <div class="container-fluid">
-        <ul class="nav justify-content-center pt-4">
-            <li class="nav-item">
-                <a class="nav-link" href="{% url 'index' %}">{% trans "HOME" %}</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{% url 'about' %}">{% trans "ABOUT" %}</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{% url 'projects' %}">{% trans "PROJECTS" %}</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{% url 'contact:contact' %}">{% trans "CONTACT" %}</a>
-            </li>
-        </ul>
 
+  <div class="container">
+      <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+          <div class="col-md-2 mb-3">
+              <h6 class="text-uppercase font-weight-bold">
+                  <a href="{% url 'index' %}">{% trans "HOME" %}</a>
+              </h6>
+          </div>
 
-    </div>
-    <div class="pb-2">
-        <div class="grey-hr py-2"></div>
-        <p class="text-center font-weight-bold mb-0 pt-4">{% trans "&copy; 2019" %}</p>
-    </div>
+          <div class="col-md-2 mb-3">
+              <h6 class="text-uppercase font-weight-bold">
+                  <a href="{% url 'about' %}">{% trans "ABOUT" %}</a>
+              </h6>
+          </div>
+
+          <div class="col-md-2 mb-3">
+              <h6 class="text-uppercase font-weight-bold">
+                  <a href="{% url 'projects' %}">{% trans "PROJECTS" %}</a>
+              </h6>
+          </div>
+
+          <div class="col-md-2 mb-3">
+              <h6 class="text-uppercase font-weight-bold">
+                  <a href="{% url 'contact:contact' %}">{% trans "CONTACT" %}</a>
+              </h6>
+          </div>
+      </div>
+  </div>
+
+  <div class="pb-2">
+      <div class="grey-hr"></div>
+      <p class="footer-copyright text-center pt-3">{% trans "&copy; 2019" %}</p>
+  </div>
+
 </footer>
-

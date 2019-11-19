@@ -1,6 +1,6 @@
 @import "variables";
-@import "../../node_modules/bootstrap-scss/bootstrap";
 
+@import "../../node_modules/bootstrap-scss/bootstrap";
 
 .footer {
   background-color: $background-color;
@@ -16,12 +16,11 @@
 }
 
 .menu {
-
   a {
     color: $link-color;
   }
 
-  a:hover {
+  a:hover, #choose-language:hover {
     color: $hover-color;
     font-weight: bold;
   }

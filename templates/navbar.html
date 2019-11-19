@@ -1,48 +1,49 @@
 {% load i18n %}
 {% load change_language %}
 
-<nav class="nav menu py-4">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-1">
-                <form action="{% url 'set_language' %}" method="post">
-                    {% csrf_token %}
-                    {% get_current_language as LANGUAGE_CODE %}
-                    {% get_available_languages as LANGUAGES %}
-                    {% get_language_info_list for LANGUAGES as languages %}
+<nav class="menu navbar navbar-expand-lg navbar-light">
+  <div class="navbar-brand">
+      <form action="{% url 'set_language' %}" method="post">
+          {% csrf_token %}
+          {% get_current_language as LANGUAGE_CODE %}
+          {% get_available_languages as LANGUAGES %}
+          {% get_language_info_list for LANGUAGES as languages %}
 
-                    <ul class="nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                {% trans "Choose language" %} </a>
-                            <div class="dropdown-menu" style="border: none">
-                                {% for language in languages %}
-                                    <a class="nav-link font-weight-bold" href="{% change_language language.code %}">{{ language.name_local | capfirst }}</a>
-                                {% endfor %}
-                            </div>
-                        </li>
+          <ul class="nav">
+              <li class="nav-item dropdown" id="choose-language" onclick="changeLanguage()">
+                  <a class=" nav-link dropdown-toggle">
+                      {% trans "Choose language" %} </a>
+                  <div class="dropdown-menu" style="border: none; display: none" id="languages">
+                      {% for language in languages %}
+                          <a class="nav-link font-weight-bold" href="{% change_language language.code %}">
+                              {{ language.name_local | capfirst }}
+                          </a>
+                      {% endfor %}
+                  </div>
+              </li>
+          </ul>
+      </form>
 
-                    </ul>
-                </form>
-            </div>
+  </div>
 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-            <div class="col-10">
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'index' %}">{% trans "HOME" %}</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'about' %}">{% trans "ABOUT" %}</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'projects' %}">{% trans "PROJECTS" %}</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'contact:contact' %}">{% trans "CONTACT" %}</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0 font-weight-bold">
+          <li class="nav-item">
+              <a class="nav-link" href="{% url 'index' %}">{% trans "HOME" %}</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="{% url 'about' %}">{% trans "ABOUT" %}</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="{% url 'projects' %}">{% trans "PROJECTS" %}</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="{% url 'contact:contact' %}">{% trans "CONTACT" %}</a>
+          </li>
+    </ul>
+  </div>
 </nav>
