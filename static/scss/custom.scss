@@ -15,16 +15,25 @@
   }
 }
 
-.menu {
-  a {
+.purple_menu {
+  a, li {
     color: $link-color;
+    font-weight: normal;
   }
 
-  a:hover, #choose-language:hover {
+  a:hover {
     color: $hover-color;
     font-weight: bold;
   }
 }
+
+.navbar-toggler-icon {
+  background-image: $navbar-light-toggler-icon-bg;
+  }
+
+.navbar-toggler {
+  border-color: $navbar-toggler-border-color;
+  }
 
 .introduction {
   background-color: $introduction-background-color;
