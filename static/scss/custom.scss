@@ -78,6 +78,20 @@
   color: $hover-color
 }
 
+.btn-purple-rounded {
+  font-weight: bold;
+  background: white;
+  border: 3px solid $hover-color;
+  color: $hover-color;
+  border-radius: 40px;
+  padding: 10px 20px 10px 20px;
+}
+
+.btn-purple-rounded:hover {
+  background: $hover-color;
+  color: white;
+}
+
 .input-error {
   color: $font-color-error;
   border-color: $input-error-color;
