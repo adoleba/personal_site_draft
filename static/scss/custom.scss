@@ -15,7 +15,7 @@
   }
 }
 
-.purple_menu {
+.menu-purple {
   a, li {
     color: $link-color;
     font-weight: normal;
@@ -40,28 +40,29 @@
   min-height: 300px;
 }
 
-.underline-purple {
+.bottom-purple {
   border-bottom: 3px solid $hover-color;
   width: 33%;
 }
 
-.underline-black {
+.bottom-black {
   border-bottom: 2px solid black;
   width: fit-content;
+  line-height: 2;
 }
 
-.purple_header {
+.header-purple {
   font-weight: bold;
   color: $hover-color;
   }
 
-.bold-hover {
+.hover-bold {
   a:hover {
     font-weight: bold;
   }
 }
 
-.grey-hr {
+.hr-grey {
   border-bottom: 1px solid;
   color: $hr-border-color;
   margin-left: 15%;
