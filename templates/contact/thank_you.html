@@ -6,7 +6,7 @@
 {% block content %}
 
     <section>
-        <div class="container p-5">
+        <div class="container p-2 p-lg-5">
             <div class="col p-5">
                 <h4 class="text-center p-5">
                     {% trans "Thank you for your message" %}<br />
@@ -14,9 +14,9 @@
                 </h4>
             </div>
 
-            <div class="col p-5">
-                <h6 class="text-center text-uppercase menu bold-hover py-1">
-                    <a href="{% url 'index' %}">{% trans "Back to homepage" %}</a>
+            <div class="col py-5">
+                <h6 class="text-center text-uppercase bold-hover py-1">
+                    <a href="{% url 'index' %}" class="underline-black">{% trans "Back to homepage" %}</a>
                 </h6>
             </div>
         </div>
