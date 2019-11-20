@@ -118,3 +118,9 @@ input:-webkit-autofill {
 input:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0 50px white inset, $input-focus-box-shadow;
 }
+
+@media (max-width: 576px) {
+  .btn-responsive {
+    font-size:90%;
+  }
+}
