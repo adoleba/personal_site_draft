@@ -1,7 +1,7 @@
 {% load i18n %}
 {% load change_language %}
 
-<nav class="menu navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-lg menu-purple">
   <div class="navbar-brand">
       <form action="{% url 'set_language' %}" method="post">
           {% csrf_token %}
@@ -11,7 +11,7 @@
 
           <ul class="nav">
               <li class="nav-item dropdown" id="choose-language" onclick="changeLanguage()">
-                  <a class=" nav-link dropdown-toggle">
+                  <a class="nav-link dropdown-toggle">
                       {% trans "Choose language" %} </a>
                   <div class="dropdown-menu" style="border: none; display: none" id="languages">
                       {% for language in languages %}
@@ -23,14 +23,14 @@
               </li>
           </ul>
       </form>
-
   </div>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+
+  <button class="navbar-toggler order-first order-sm-last ml-4" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+  <div class="collapse navbar-collapse order-first order-sm-last text-sm-right text-left pr-lg-5 ml-4 m-sm-0" id="navbarNavDropdown">
       <ul class="navbar-nav ml-auto mt-2 mt-lg-0 font-weight-bold">
           <li class="nav-item">
               <a class="nav-link" href="{% url 'index' %}">{% trans "HOME" %}</a>
