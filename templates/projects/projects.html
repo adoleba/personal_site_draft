@@ -7,15 +7,15 @@
     <section>
         <div class="container py-5">
             <div class="row">
-                <div class="col-lg-6 col-xs-12 px-5 p-lg-5">
+                <div class="d-none d-sm-block col-lg-6 col-xs-12 px-5 p-lg-5">
                     <img src="/media/images/projects/toggl.png" class="img-fluid"/>
                 </div>
 
                 <div class="col p-5 order-first order-lg-last">
                     <h4 class="bottom-purple font-weight-bold py-1">01.</h4>
-                    <h1 class="font-weight-bold pt-3 pb-5">{% trans "efrtgyu" %}</h1>
+                    <h1 class="font-weight-bold pt-3 pb-5">{% trans "Toggl App" %}</h1>
                     <p class="pb-4">
-                        {% trans "W związku z tym, że czynności cywilne wykonywane przez prokuratora wojskowego podlegały zwierzchnictwu Prokuratury Okręgowej w Gdańsku, ta zwróciła się z prośbą o przejęcie postępowania przez inną jednostkę tłumacząc to kwestią zachowania obiektywizmu." %}
+                        {% trans "Simple Django app, which add the same task to the Toggl account for choose dates and hours." %}
                     </p>
                     <h6 class="text-uppercase hover-bold py-1">
                         <a href="#" class="bottom-black">{% trans "Link gdzieś" %}</a>
@@ -26,29 +26,24 @@
             <div class="row">
                 <div class="col p-5 order-first">
                     <h4 class="bottom-purple font-weight-bold py-1">02.</h4>
-                    <h1 class="font-weight-bold py-3">{% trans "efrtgyu" %}</h1>
+                    <h1 class="font-weight-bold py-3">{% trans "Blog (Django Admin)" %}</h1>
                     <p class="pb-4">
-                        {% trans "W związku z tym, że czynności cywilne wykonywane przez prokuratora wojskowego podlegały zwierzchnictwu Prokuratury Okręgowej w Gdańsku, ta zwróciła się z prośbą o przejęcie postępowania przez inną jednostkę tłumacząc to kwestią zachowania obiektywizmu." %}
+                        {% trans "Sample of cms blog with using django-admin with addidional contact page, which can be edited from admin page. Posts are sorted and can be filtered in categories. Readers can leave comments. Blog has implemented api in django restframework." %}
                     </p>
                     <h6 class="text-uppercase hover-bold py-1">
                         <a href="#" class="bottom-black">{% trans "Link gdzieś" %}</a>
                     </h6>
                 </div>
 
-                <div class="col-lg-6 col-xs-12 px-5 p-lg-5 order-lg-last">
-                    <div id="carouselBlog" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselBlog" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselBlog" data-slide-to="1"></li>
-                        </ol>
-                        <div class="carousel-inner">
+                <div class="d-none d-sm-block col-lg-6 col-xs-12 px-5 p-lg-5 order-lg-last">
+                    <div id="carouselBlog" class="carousel slide carousel-image" data-ride="carousel">
+                        <div class="d-flex h-100 text-center align-items-center carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="/media/images/projects/blog_1.png" alt="First slide">
+                                <img class="img-fluid" src="/media/images/projects/blog_1.png" alt="First slide" style="width: auto; max-height: 450px">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="/media/images/projects/blog_2.png" alt="Second slide">
+                                <img class="img-fluid" src="/media/images/projects/blog_2.png" alt="Second slide" style="width: auto; max-height: 450px">
                             </div>
-
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselBlog" role="button" data-slide="prev">
@@ -63,18 +58,15 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-6 col-xs-12 px-5 p-lg-5">
-                    <div id="carouselFlask" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselFlask" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselFlask" data-slide-to="1"></li>
-                        </ol>
-                        <div class="carousel-inner">
+                <div class="d-none d-sm-block col-lg-6 col-xs-12 px-5 p-lg-5">
+                    <div id="carouselFlask" class="carousel slide carousel-image" data-ride="carousel">
+
+                        <div class="d-flex h-100 text-center align-items-center carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="/media/images/projects/flask_site_1.png" alt="First slide">
+                                <img class="img-fluid" src="/media/images/projects/flask_site_1.png" alt="First slide" style="width: auto; max-height: 450px">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="/media/images/projects/flask_site_2.png" alt="Second slide">
+                                <img class="img-fluid" src="/media/images/projects/flask_site_2.png" alt="Second slide" style="width: auto; max-height: 450px">
                             </div>
 
                         </div>
@@ -92,9 +84,9 @@
 
                 <div class="col p-5 order-first order-lg-last">
                     <h4 class="bottom-purple font-weight-bold py-1">03.</h4>
-                    <h1 class="font-weight-bold py-3">{% trans "efrtgyu" %}</h1>
+                    <h1 class="font-weight-bold py-3">{% trans "Company site with blog (Flask)" %}</h1>
                     <p class="pb-4">
-                        {% trans "W związku z tym, że czynności cywilne wykonywane przez prokuratora wojskowego podlegały zwierzchnictwu Prokuratury Okręgowej w Gdańsku, ta zwróciła się z prośbą o przejęcie postępowania przez inną jednostkę tłumacząc to kwestią zachowania obiektywizmu." %}
+                        {% trans "Sample of company site with blog in Flask using Flask-admin module. Every page can be edited in flask-admin panel. Every registered user can add posts on blog, possibility of editing other pages only for superusers. Superusers can also add new pages from defined modules." %}
                     </p>
                     <h6 class="text-uppercase hover-bold py-1">
                         <a href="#" class="bottom-black">{% trans "Link gdzieś" %}</a>
@@ -105,29 +97,24 @@
             <div class="row">
                 <div class="col p-5 order-first">
                     <h4 class="bottom-purple font-weight-bold py-1">04.</h4>
-                    <h1 class="font-weight-bold py-3">{% trans "efrtgyu" %}</h1>
+                    <h1 class="font-weight-bold py-3">{% trans "Company site with blog (Django Wagtail)" %}</h1>
                     <p class="pb-4">
-                        {% trans "W związku z tym, że czynności cywilne wykonywane przez prokuratora wojskowego podlegały zwierzchnictwu Prokuratury Okręgowej w Gdańsku, ta zwróciła się z prośbą o przejęcie postępowania przez inną jednostkę tłumacząc to kwestią zachowania obiektywizmu." %}
+                        {% trans "Sample of company site with blog with using Wagtail CMS. Every page can be edited in Wagtail-admin. Admin can add own pages from defined blocks. Readers can leave comments to posts." %}
                     </p>
                     <h6 class="text-uppercase hover-bold py-1">
                         <a href="#" class="bottom-black">{% trans "Link gdzieś" %}</a>
                     </h6>
                 </div>
 
-                <div class="col-lg-6 col-xs-12 px-5 p-lg-5 order-lg-last">
-                    <div id="carouselWagtail" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselWagtail" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselWagtail" data-slide-to="1"></li>
-                        </ol>
-                        <div class="carousel-inner">
+                <div class="d-none d-sm-block col-lg-6 col-xs-12 px-5 p-lg-5 order-lg-last">
+                    <div id="carouselWagtail" class="carousel slide carousel-image" data-ride="carousel">
+                        <div class="d-flex h-100 text-center align-items-center carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="/media/images/projects/wagtail_1.png" alt="First slide">
+                                <img class="img-fluid" src="/media/images/projects/wagtail_1.png" alt="First slide" style="width: auto; max-height: 450px">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="/media/images/projects/wagtail_2.png" alt="Second slide">
+                                <img class="img-fluid" src="/media/images/projects/wagtail_2.png" alt="Second slide" style="width: auto; max-height: 450px">
                             </div>
-
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselWagtail" role="button" data-slide="prev">
@@ -142,15 +129,15 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-6 col-xs-12 px-5 p-lg-5">
+                <div class="d-none d-sm-block col-lg-6 col-xs-12 px-5 p-lg-5">
                     <img src="/media/images/projects/scraper.png" class="img-fluid"/>
                 </div>
 
                 <div class="col p-5 order-first order-lg-last">
                     <h4 class="bottom-purple font-weight-bold py-1">05.</h4>
-                    <h1 class="font-weight-bold pt-3 pb-5">{% trans "efrtgyu" %}</h1>
+                    <h1 class="font-weight-bold pt-3 pb-5">{% trans "Web scaper" %}</h1>
                     <p class="pb-4">
-                        {% trans "W związku z tym, że czynności cywilne wykonywane przez prokuratora wojskowego podlegały zwierzchnictwu Prokuratury Okręgowej w Gdańsku, ta zwróciła się z prośbą o przejęcie postępowania przez inną jednostkę tłumacząc to kwestią zachowania obiektywizmu." %}
+                        {% trans "Script crawling books from shop helion.pl from category set in start_urls. Books are crawled with theirs title, author, price (or special price if there is promotion, if product is temporary unavailable, with this information), price category (<50 zł, 50-100 zł, 100-150 zł, >100 zł) and saved into .csv file." %}
                     </p>
                     <h6 class="text-uppercase hover-bold py-1">
                         <a href="#" class="bottom-black">{% trans "Link gdzieś" %}</a>
@@ -161,16 +148,16 @@
             <div class="row">
                 <div class="col p-5 order-first">
                     <h4 class="bottom-purple font-weight-bold py-1">06.</h4>
-                    <h1 class="font-weight-bold py-3">{% trans "efrtgyu" %}</h1>
+                    <h1 class="font-weight-bold py-3">{% trans "Personal site" %}</h1>
                     <p class="pb-4">
-                        {% trans "W związku z tym, że czynności cywilne wykonywane przez prokuratora wojskowego podlegały zwierzchnictwu Prokuratury Okręgowej w Gdańsku, ta zwróciła się z prośbą o przejęcie postępowania przez inną jednostkę tłumacząc to kwestią zachowania obiektywizmu." %}
+                        {% trans "This site, django app using Bootstrap." %}
                     </p>
                     <h6 class="text-uppercase hover-bold py-1">
                         <a href="#" class="bottom-black">{% trans "Link gdzieś" %}</a>
                     </h6>
                 </div>
 
-                <div class="col-lg-6 col-xs-12 px-5 p-lg-5 order-lg-last">
+                <div class="d-none d-sm-block col-lg-6 col-xs-12 px-5 p-lg-5 order-lg-last">
                     <img src="/media/images/project_image.jpg" class="img-fluid"/>
                 </div>
             </div>
