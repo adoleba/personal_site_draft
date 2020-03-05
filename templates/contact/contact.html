@@ -9,8 +9,8 @@
             <div class="row justify-content-center">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="text-center px-lg-5">
-                        <h3 class="font-weight-bold pt-3 pb-2">{% trans "Ultricies integer" %}</h3>
-                        <p class="text-center pt-3 px-lg-5">{% trans "Lacus viverra vitae congue eu consequat ac felis donec. Facilisis gravida neque convallis a cras semper. Ultricies integer quis auctor elit sed vulputate mi sit amet. Nulla porttitor massa id neque aliquam vestibulum." %}</p>
+                        <h3 class="font-weight-bold pt-3 pb-2">{% trans "Contact me" %}</h3>
+                        <p class="text-center pt-3 px-lg-5">{% trans "If you interested cooperation with me, please don't hesitate to contact me. You can use contact form below or via my e-mail: ania.doleba[at]wp.pl." %}</p>
                     </div>
                 </div>
             </div>
@@ -33,9 +33,9 @@
                     <form action="." method="post">
 
                         {% csrf_token %}
-                        <p class="font-weight-bold pt-3 mb-0">{% trans "Name" %}:</p>
+                        <p class="font-weight-bold pt-3 mb-0">{% trans "Name" %}</p>
                             {{ form.name }}
-                        <p class="font-weight-bold pt-3 mb-0">{% trans "E-mail" %}:</p>
+                        <p class="font-weight-bold pt-3 mb-0">{% trans "E-mail" %}</p>
                             {{ form.email }}
                         <p class="font-weight-bold pt-3 mb-0">{% trans "Subject" %}</p>
                             {{ form.subject }}

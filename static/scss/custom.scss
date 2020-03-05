@@ -81,11 +81,11 @@
   background: $hover-color;
   border-color: $hover-color;
   color: #fff;
-}
 
-.btn-purple:hover {
+  &:hover {
   background: white;
   color: $hover-color
+  }
 }
 
 .btn-purple-rounded {
@@ -95,11 +95,11 @@
   color: $hover-color;
   border-radius: 40px;
   padding: 10px 20px 10px 20px;
-}
 
-.btn-purple-rounded:hover {
+  &:hover {
   background: $hover-color;
   color: white;
+  }
 }
 
 .btn-purple-border {
@@ -110,7 +110,6 @@
   &:hover {
     color: $hover-color;
   }
-
 }
 
 .input-error {
@@ -125,10 +124,10 @@
 
 input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 1000px white inset;
-}
 
-input:-webkit-autofill:focus {
+  &:focus{
   -webkit-box-shadow: 0 0 0 50px white inset, $input-focus-box-shadow;
+  }
 }
 
 @media (max-width: 576px) {
