@@ -102,6 +102,17 @@
   color: white;
 }
 
+.btn-purple-border {
+  background: white;
+  border-color: $hover-color;
+  color: $hover-color;
+
+  &:hover {
+    color: $hover-color;
+  }
+
+}
+
 .input-error {
   color: $font-color-error;
   border-color: $input-error-color;
