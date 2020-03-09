@@ -8,17 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-08 20:30+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2020-03-09 16:44+0100\n"
+"PO-Revision-Date: 2020-03-09 16:47+0000\n"
+"Last-Translator: b'  <ania.doleba@wp.pl>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n"
-"%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n"
-"%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Translated-Using: django-rosetta 0.9.3\n"
 
 #: contact/forms.py:7
 msgid "Please fill your name"
@@ -44,70 +43,222 @@ msgstr "Uzupełnij treść wiadomości"
 msgid "thank-you/"
 msgstr "dziekuje/"
 
-#: personal_site/settings.py:115
+#: personal_site/settings.py:116
 msgid "english"
 msgstr "angielski"
 
-#: personal_site/settings.py:116
+#: personal_site/settings.py:117
 msgid "polish"
 msgstr "Polski"
 
-#: personal_site/urls.py:17
+#: personal_site/urls.py:18
 msgid "about/"
 msgstr "o-mnie"
 
-#: personal_site/urls.py:18
+#: personal_site/urls.py:19
 msgid "contact/"
 msgstr "kontakt/"
 
-#: personal_site/urls.py:19
+#: personal_site/urls.py:20
 msgid "projects/"
 msgstr "projekty"
 
-#: templates/about/about.html:14 templates/contact/contact.html:12
-#: templates/projects/projects.html:16 templates/projects/projects.html:29
-#: templates/projects/projects.html:50
-msgid "efrtgyu"
-msgstr ""
+#: templates/about/about.html:14
+msgid "Skills and technologies"
+msgstr "Co potrafię?"
 
-#: templates/about/about.html:15 templates/contact/contact.html:13
-msgid "test akapitu"
-msgstr ""
-
-#: templates/about/about.html:22 templates/about/about.html:28
-#: templates/about/about.html:34 templates/about/about.html:43
-#: templates/about/about.html:49 templates/about/about.html:55
-msgid "One of three columns"
-msgstr ""
-
-#: templates/about/about.html:24 templates/about/about.html:45
-#: templates/projects/projects.html:18 templates/projects/projects.html:31
-#: templates/projects/projects.html:52
+#: templates/about/about.html:15
 msgid ""
-"W związku z tym, że czynności cywilne wykonywane przez prokuratora "
-"wojskowego podlegały zwierzchnictwu Prokuratury Okręgowej w Gdańsku, ta "
-"zwróciła się z prośbą o przejęcie postępowania przez inną jednostkę "
-"tłumacząc to kwestią zachowania obiektywizmu."
+"During my education, I worked mainly with the belowing "
+"technologies/languages​​/frameworks."
 msgstr ""
+"Podczas mojej edukacji pracowałam głównie z następującymi "
+"technologiami/językami/frameworkami."
 
-#: templates/about/about.html:30 templates/about/about.html:51
+#: templates/about/about.html:16
 msgid ""
-"W związku z tym, że czynności cywilne wykonywane przez prokuratora "
-"wojskowego podlegały zwierzchnictwu Prokuratmacząc to kwestią zachowania "
-"obiektywizmu."
+"I am open to new knowledge and new technologies, so this list is not closed "
+"and will grow with the increase of professional experience"
 msgstr ""
+"Jestem otwarta na nową wiedzę i nowe technologie, więc lista ta nie jest "
+"zamknięta i będzie rosła wraz ze wzrostem doświadczenia zawodowego"
 
-#: templates/about/about.html:36 templates/about/about.html:57
+#: templates/about/about.html:23 templates/projects/projects.html:20
+#: templates/projects/projects.html:39 templates/projects/projects.html:102
+#: templates/projects/projects.html:121 templates/projects/projects.html:165
+#: templates/projects/projects.html:181 templates/projects/projects.html:229
+msgid "Python"
+msgstr "Python"
+
+#: templates/about/about.html:25
+msgid "Python 3.6+"
+msgstr "Python 3.6+"
+
+#: templates/about/about.html:29 templates/projects/projects.html:21
+#: templates/projects/projects.html:40 templates/projects/projects.html:122
+#: templates/projects/projects.html:182 templates/projects/projects.html:230
+msgid "Django"
+msgstr "Django"
+
+#: templates/about/about.html:31
+msgid "Django 2.0+"
+msgstr "Django 2.0+"
+
+#: templates/about/about.html:33 templates/about/about.html:44
+msgid "Most important libraries:"
+msgstr "Najważniejsze biblioteki:"
+
+#: templates/about/about.html:34
+msgid "django-environ"
+msgstr "django-environ"
+
+#: templates/about/about.html:35
+msgid "django-ckeditor"
+msgstr "django-ckeditor"
+
+#: templates/about/about.html:36
+msgid "django-filter"
+msgstr "django-filter"
+
+#: templates/about/about.html:37
+msgid "django-rosetta"
+msgstr "django-rosetta"
+
+#: templates/about/about.html:41 templates/projects/projects.html:103
+msgid "Flask"
+msgstr "Flask"
+
+#: templates/about/about.html:43
+msgid "1.1"
+msgstr "1.1"
+
+#: templates/about/about.html:45
+msgid "flask-sqlalchemy"
+msgstr "flask-sqlalchemy"
+
+#: templates/about/about.html:46
+msgid "flask-admin"
+msgstr "flask-admin"
+
+#: templates/about/about.html:47
+msgid "flask-login"
+msgstr "flask-login"
+
+#: templates/about/about.html:48
+msgid "flask-wtf"
+msgstr "flask-wtf"
+
+#: templates/about/about.html:55
+msgid "Rest Framework"
+msgstr "Rest Framework"
+
+#: templates/about/about.html:57
+msgid "API, returning JSON Data, serialization"
+msgstr "API, zwracanie danych w formacie JSON, serializacja"
+
+#: templates/about/about.html:61 templates/projects/projects.html:22
+#: templates/projects/projects.html:183
+msgid "Bootstrap"
+msgstr "Bootstrap"
+
+#: templates/about/about.html:63
 msgid ""
-"W związku z tym, że czynności cywilne wykonywane przez prokuratora "
-"wojskowego podlegały zwierzchnictwu Prokuratury Okręgowej w Gdańsku, ta "
-"zwróciła się z prośbą o przejęcie postępowania przez inną jednostkę tłumą "
-"zachowania obiektywizmu."
+"Bootstrap 4 SCSS, installed to projects via npm and compiled via node-scss"
 msgstr ""
+"Bootstrap 4 SCSS instalowany w projekcie z wykorzystaniem npm i kompilowany "
+"przez node-scss"
+
+#: templates/about/about.html:67 templates/projects/projects.html:123
+msgid "Wagtail"
+msgstr "Wagtail"
+
+#: templates/about/about.html:69
+msgid ""
+"Content Management System (CMS) using interchangeably with django-admin, "
+"mainly for users with no IT skills"
+msgstr ""
+"System Zarządzania Treścią (CMS) używany zamiennie z django-admin, głównie "
+"dla użytkowników nie znających HTMLa"
+
+#: templates/about/about.html:76 templates/projects/projects.html:166
+msgid "Scrapy"
+msgstr "Scrapy"
+
+#: templates/about/about.html:78
+msgid ""
+"Scraping elements from requested url (using css selectors), displaying them "
+"in shell or saving into file"
+msgstr ""
+"Pobieranie elementów z zadanego adresu url (wykorzystując selektory css), "
+"wyświetlanie ich w konsoli, bądź w pliku"
+
+#: templates/about/about.html:82
+msgid "PyCharm"
+msgstr "PyCharm"
+
+#: templates/about/about.html:84
+msgid "I use integrated development environment (PyCharm) at work"
+msgstr ""
+"W pracy korzystam ze zintegrowanego środowiska produkcyjnego (IDE) - Pycharm"
+
+#: templates/about/about.html:88
+msgid "GIT"
+msgstr "GIT"
+
+#: templates/about/about.html:90
+msgid ""
+"Work according to Git Workflow, commits are assigned to branches, pull "
+"request before merging changes"
+msgstr ""
+"Praca zgodnie z Git Workflow, commity są przypisane do branchy, pull "
+"requesty przed zmergowaniem zmian"
+
+#: templates/about/about.html:97
+msgid "Jinja2"
+msgstr "Jinja2"
+
+#: templates/about/about.html:99
+msgid "Templates in applications with use of Jinja engine"
+msgstr "Wykorzystanie w templatkach silnika Jinja"
+
+#: templates/about/about.html:103
+msgid "HTML/CSS/SCSS"
+msgstr "HTML/CSS/SCSS"
+
+#: templates/about/about.html:105
+msgid ""
+"Responsive Web Design (RWD), projects are designed according to methodology "
+"Mobile First"
+msgstr ""
+"Responsywne widoki (RWD), projekty są tworzone zgodnie z metodyką Mobile "
+"First"
+
+#: templates/about/about.html:109 templates/projects/projects.html:23
+#: templates/projects/projects.html:184
+msgid "Java Script"
+msgstr "Java Script"
+
+#: templates/about/about.html:111
+msgid "Dynamic content on pages"
+msgstr "Dynamiczna zawartość stron"
 
 #: templates/base.html:10
 msgid "My site"
+msgstr "My site"
+
+#: templates/contact/contact.html:12 templates/homepage/index.html:60
+#| msgid "contact/"
+msgid "Contact me"
+msgstr "Skontaktuj się ze mną"
+
+#: templates/contact/contact.html:13
+msgid ""
+"If you interested cooperation with me, please don't hesitate to contact me. "
+"You can use contact form below or via my e-mail: ania.doleba[at]wp.pl."
 msgstr ""
+"Jeśli jesteś zainteresowany/zainteresowana podjęciem ze mną współpracy, "
+"napisz. Możesz użyć poniższego formularza kontaktowego, bądź  bezpośrednio "
+"przez e-maila: ania.doleba[at]wp.pl."
 
 #: templates/contact/contact.html:36
 msgid "Name"
@@ -115,7 +266,7 @@ msgstr "Imię i nazwisko"
 
 #: templates/contact/contact.html:38
 msgid "E-mail"
-msgstr ""
+msgstr "E-mail"
 
 #: templates/contact/contact.html:40
 msgid "Subject"
@@ -130,50 +281,283 @@ msgid "Send"
 msgstr "Wyślij"
 
 #: templates/contact/thank_you.html:12
-msgid "Thank you for your message"
-msgstr "Dziękję za przesłaną wiadomość"
+#| msgid "Thank you for your message"
+msgid "Thank you for your message."
+msgstr "Dziękuję za przesłaną wiadomość."
 
 #: templates/contact/thank_you.html:13
-msgid "I will respond as soon as possible"
-msgstr "Odpowiem najdzybciej jak to możliwe"
+#| msgid "I will respond as soon as possible"
+msgid "I will respond as soon as possible."
+msgstr "Odpowiem najszybciej jak to możliwe."
 
 #: templates/contact/thank_you.html:19
 msgid "Back to homepage"
 msgstr "Powrót na stronę główną"
 
-#: templates/footer.html:7 templates/navbar.html:33
+#: templates/footer.html:9 templates/navbar.html:37
 msgid "HOME"
 msgstr "STRONA GŁÓWNA"
 
-#: templates/footer.html:10 templates/navbar.html:36
+#: templates/footer.html:15 templates/navbar.html:40
 msgid "ABOUT"
 msgstr "O MNIE"
 
-#: templates/footer.html:13 templates/navbar.html:39
+#: templates/footer.html:21 templates/navbar.html:43
 msgid "PROJECTS"
 msgstr "PROJEKTY"
 
-#: templates/footer.html:16 templates/navbar.html:42
+#: templates/footer.html:27 templates/navbar.html:46
 msgid "CONTACT"
 msgstr "KONTAKT"
 
-#: templates/footer.html:24
-msgid "&copy; 2019"
-msgstr ""
+#: templates/footer.html:35
+msgid "&copy; 2020"
+msgstr "&copy; 2020"
 
 #: templates/header.html:10
-msgid "Zoom gallery  aa here aaa "
-msgstr ""
+msgid "Anna Doleba"
+msgstr "Anna Doleba"
 
-#: templates/header.html:12
-msgid "Short page title tagline goes here aaa aaaaaaaaaa aaaaaaaaaaa"
-msgstr ""
+#: templates/header.html:11
+msgid "Junior Python Developer"
+msgstr "Junior Python Developer"
 
-#: templates/navbar.html:17
+#: templates/homepage/index.html:12
+msgid "Who am I?"
+msgstr "Kilka słów o mnie"
+
+#: templates/homepage/index.html:14
+msgid ""
+"Master of Science in Management and Production Engineering, specializing in "
+"Product Quality Management. "
+msgstr ""
+"Mgr inż. Zarządzania i Inżynierii Produkcji, ze specjalnością Zarządzanie "
+"Jakością Produktu."
+
+#: templates/homepage/index.html:15
+msgid ""
+"Self learned Python programmer, working in Django and Flask Frameworks. "
+msgstr "Pythonowy samouk, pracujący we frameworkach Django i Flask."
+
+#: templates/homepage/index.html:16
+msgid ""
+"An ambitious perfectionist, analytically approaching problems, considering "
+"various options before making a decision."
+msgstr ""
+"Ambitna perfekcjonistka, rozwiązująca problemy analitycznie, rozważająca "
+"wiele opcji przed podjęciem decyzji."
+
+#: templates/homepage/index.html:20 templates/homepage/index.html:45
+#: templates/homepage/index.html:66
+msgid "Read more"
+msgstr "Więcej"
+
+#: templates/homepage/index.html:37
+#| msgid "projects/"
+msgid "My projects"
+msgstr "Moje projekty"
+
+#: templates/homepage/index.html:39
+msgid ""
+"During my education I created several projects. All of them it was my idea. "
+msgstr ""
+"Podczas nauki stworzyłam kilka swoich projektów, koncepcja większości z nich"
+" była moim własnym pomysłem."
+
+#: templates/homepage/index.html:40
+msgid ""
+"Design of some of them is based on implementation bought html template, "
+msgstr ""
+"Wygląd części z nich opiera się na zaimplementowaniu kupionej gotowej "
+"templatki html, "
+
+#: templates/homepage/index.html:41
+msgid ""
+"some of projects was designed with using Bootstrap on the base of .psd file,"
+" and some I desingned by my own, using Bootstrap."
+msgstr ""
+"część została zaprojektowana z użyciem Bootstrapa do zakodowania pliku .psd,"
+" a część na podstawie własnej koncepcji, z wykorzystaniem biblioteki "
+"Bootstrap."
+
+#: templates/homepage/index.html:62
+msgid "Are you interested cooperation with me?"
+msgstr "Jesteś zainteresowany podjęciem współpracy ze mną?"
+
+#: templates/navbar.html:15
 msgid "Choose language"
 msgstr "Wybierz język"
 
-#: templates/projects/projects.html:21 templates/projects/projects.html:34
-#: templates/projects/projects.html:55
-msgid "Link gdzieś"
+#: templates/projects/projects.html:16
+msgid "Toggl App"
+msgstr "Toggl App"
+
+#: templates/projects/projects.html:18
+msgid ""
+"Simple Django app, which add the same task to the Toggl account for choose "
+"dates and hours."
 msgstr ""
+"Prosta aplikacja we frameworku Django, która dodaje do konta Toggl zadania "
+"powtarzalne w określonych datach i godzinach."
+
+#: templates/projects/projects.html:25 templates/projects/projects.html:43
+#: templates/projects/projects.html:107 templates/projects/projects.html:125
+#: templates/projects/projects.html:168 templates/projects/projects.html:186
+#: templates/projects/projects.html:233
+msgid "Go to the project"
+msgstr "Aplikacja"
+
+#: templates/projects/projects.html:26 templates/projects/projects.html:44
+#: templates/projects/projects.html:108 templates/projects/projects.html:126
+#: templates/projects/projects.html:169 templates/projects/projects.html:187
+#: templates/projects/projects.html:234
+msgid "Go to Github"
+msgstr "Projekt na GitHub"
+
+#: templates/projects/projects.html:34
+msgid "Blog"
+msgstr "Blog"
+
+#: templates/projects/projects.html:36
+msgid ""
+"Sample of cms blog with using django-admin with addidional contact page, "
+"which can be edited from admin page. "
+msgstr ""
+"Przykład bloga CMS z wykorzystaniem panelu administracyjnego Django, wraz z "
+"dodatkową stroną kontaktową, która również jest edytowana z poziomu panelu "
+"administracyjnego."
+
+#: templates/projects/projects.html:37
+msgid ""
+"Posts are sorted and can be filtered in categories. Readers can leave "
+"comments. Blog has implemented API in django restframework."
+msgstr ""
+"Posty są posortowane i mogą być filtrowane według kategorii. Czytelnicy mogą"
+" komentować posty. Blog posiada zaimplementowane API w Django Rest "
+"Framework."
+
+#: templates/projects/projects.html:41
+msgid "Django Rest Framework"
+msgstr "Django Rest Framework"
+
+#: templates/projects/projects.html:97 templates/projects/projects.html:116
+msgid "Company site with blog"
+msgstr "Strona firmowa z blogiem"
+
+#: templates/projects/projects.html:99
+msgid ""
+"Sample of company site with blog in Flask using Flask-admin module. Every "
+"page can be edited in flask-admin panel. "
+msgstr ""
+"Przykładowa strona firmowa z blogiem we frameworku Flask, wykorzystująca "
+"moduł flask-admin. Każda strona może być edytowana przez panel "
+"administracyjny."
+
+#: templates/projects/projects.html:100
+msgid ""
+"Every registered user can add posts on blog, possibility of editing other "
+"pages only for superusers. Superusers can also add new pages from defined "
+"modules."
+msgstr ""
+"Każdy zarejestrowany użytkownik może dodawać posty na blogu, możliwość "
+"edycji pozostałych stron tylko dla superuserów. Superuserzy mogą również "
+"dodawać nowe strony z wykorzystaniem stworzonych modułów."
+
+#: templates/projects/projects.html:104
+msgid "Flask-admin"
+msgstr "Flask-admin"
+
+#: templates/projects/projects.html:105
+msgid "SQLAlchemy"
+msgstr "SQLAlchemy"
+
+#: templates/projects/projects.html:118
+msgid ""
+"Sample of company site with blog with using Wagtail CMS. Every page can be "
+"edited in Wagtail-admin. "
+msgstr ""
+"Przykład strony firmowej z blogiem z wykorzystaniem CMSa Wagtail. Każda "
+"strona może być edytowana w panelu administracyjnym Wagtail."
+
+#: templates/projects/projects.html:119
+msgid ""
+"Admin can add own pages from defined blocks. Readers can leave comments to "
+"posts."
+msgstr ""
+"Użytkownik ze statusem administratora może dodać stronę w wykorzystaniem "
+"zdefiniowanych wcześniej modułów. Czytelnicy mają możliwość komentowania "
+"postów."
+
+#: templates/projects/projects.html:159
+msgid "Web scaper"
+msgstr "Web scaper"
+
+#: templates/projects/projects.html:161
+msgid ""
+"Script crawling books from shop helion.pl from category set in start_urls. "
+"Books are crawled with theirs title, author, price "
+msgstr ""
+"Skrypt pobierający wszystkie książki ze sklepu internetowego helion.pl "
+"(kategorii podanej w parametrze start_urls). Pozycje są pobierane z tytułem,"
+" autorem, ceną"
+
+#: templates/projects/projects.html:162
+msgid ""
+"(or special price if there is promotion, if product is temporary "
+"unavailable, with this information), "
+msgstr ""
+"(lub ceną specjalną, jeśli produkt aktualnie jest w promocji, w przypadku "
+"chwilowego braku dostępności produktu, skrypt zwraca stosowną informację),"
+
+#: templates/projects/projects.html:163
+msgid ""
+"price category (<50 zł, 50-100 zł, 100-150 zł, >100 zł) and saved into .csv "
+"file."
+msgstr ""
+"oraz kategorią cenową (<50 zł, 50-100 zł, 100-150 zł, >100 zł) i zapisywane "
+"w pliku .csv."
+
+#: templates/projects/projects.html:177
+msgid "Personal site"
+msgstr "Strona osobista"
+
+#: templates/projects/projects.html:179
+msgid ""
+"This site, Django app using Bootstrap. Page bilingual - depending on "
+"localization, users can switch languages - between polish and english."
+msgstr ""
+"Ta strona, aplikacja Django wykorzystująca bibliotekę Bootstrap. Strona "
+"dwujęzyczna zależnie od lokalizacji, użytkownicy mogą przełączać między "
+"językiem polskim i angielskim."
+
+#: templates/projects/projects.html:223
+msgid "Books App"
+msgstr "Books App"
+
+#: templates/projects/projects.html:225
+msgid ""
+"Simple Django application to manage a collection of books (with their "
+"authors and categories)."
+msgstr ""
+"Prosta aplikacja we frameworku Django do zarządzania zbiorem książek (wraz z"
+" ich autorami i kategoriami)."
+
+#: templates/projects/projects.html:226
+msgid ""
+"The application has the ability to filter by author and category, manually "
+"add a book and import books by keywords from the Google API."
+msgstr ""
+"Aplikacja posiada możliwość filtrowania po autorach i kategorii, ręczne "
+"dodawanie pozycji oraz import według słów kluczowych z Google API."
+
+#: templates/projects/projects.html:227
+msgid ""
+"Recruitment task performed to check own skills,  application's  appearane "
+"did not matter."
+msgstr ""
+"Zadanie rekrutacyjne, wykonane w celu sprawdzenia własnych umiejętności, "
+"wygląd nie miał znaczenia."
+
+#: templates/projects/projects.html:231
+msgid "Django-filter"
+msgstr "Django-filter"

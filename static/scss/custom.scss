@@ -45,10 +45,14 @@
   width: 33%;
 }
 
-.bottom-black {
-  border-bottom: 2px solid black;
+.bottom-purple-thin {
+  border-bottom: 1px solid $hover-color;
   width: fit-content;
-  line-height: 2;
+  width: -moz-fit-content;
+
+  &:hover {
+    color: $hover-color;
+  }
 }
 
 .header-purple {
