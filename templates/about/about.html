@@ -6,76 +6,109 @@
 {% block content %}
 
     <section>
-        <div class="container py-5">
+        <div class="container py-5 py-sm-2 py-lg-5">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="text-center">
+                    <div class="text-center px-5">
 
-                        <h1 class="font-weight-bold pt-3 pb-2">{% trans "What can I do?" %}</h1>
-                        <p class="text-center pt-3 pb-5">{% trans "test akapitu" %}</p>
+                        <h1 class="font-weight-bold pt-3 pb-2">{% trans "Skills and technologies" %}</h1>
+                        <p class="text-center pt-3 pb-5 px-5">{% trans "During my education, I worked mainly with the belowing technologies/languages​​/frameworks." %}
+                            {% trans "I am open to new knowledge and new technologies, so this list is not closed and will grow with the increase of professional experience" %}</p>
                     </div>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-lg-4 col-xs-12 text-center text-lg-left px-5">
+                <div class="col-sm-4 col-xs-12 text-center text-lg-left px-4 px-sm-2 px-lg-5">
                     <h5 class="header-purple text-uppercase py-3">{% trans "Python" %}</h5>
                     <p class="pb-4">
-                        {% trans "W związku z tym, że czynności cywilne wykonywane przez prokuratora wojskowego podlegały zwierzchnictwu Prokuratury Okręgowej w Gdańsku, ta zwróciła się z prośbą o przejęcie postępowania przez inną jednostkę tłumacząc to kwestią zachowania obiektywizmu." %}
+                        {% trans "Python 3.6+" %}
                     </p>
                 </div>
-                <div class="col-lg-4 col-xs-12 text-center text-lg-left px-5">
+                <div class="col-sm-4 col-xs-12 text-center text-lg-left px-4 px-sm-2 px-lg-5">
                     <h5 class="header-purple text-uppercase py-3">{% trans "Django" %}</h5>
                     <p class="pb-4">
-                        {% trans "W związku z tym, że czynności cywilne wykonywane przez prokuratora wojskowego podlegały zwierzchnictwu Prokuratmacząc to kwestią zachowania obiektywizmu." %}
+                        {% trans "Django 2.0+" %}<br />
+
+                        {% trans "Most important libraries:" %}<br />
+                        {% trans "django-environ" %}<br />
+                        {% trans "django-ckeditor" %}<br />
+                        {% trans "django-filter" %}<br />
+                        {% trans "django-rosetta" %}<br />
                     </p>
                 </div>
-                <div class="col-lg-4 col-xs-12 text-center text-lg-left px-5">
+                <div class="col-sm-4 col-xs-12 text-center text-lg-left px-4 px-sm-2 px-lg-5">
                     <h5 class="header-purple text-uppercase py-3">{% trans "Flask" %}</h5>
                     <p class="pb-4">
-                        {% trans "W związku z tym, że czynności cywilne wykonywane przez prokuratora wojskowego podlegały zwierzchnictwu Prokuratury Okręgowej w Gdańsku, ta zwróciła się z prośbą o przejęcie postępowania przez inną jednostkę tłumą zachowania obiektywizmu." %}
+                        {% trans "1.1" %}<br />
+                        {% trans "Most important libraries:" %}<br />
+                        {% trans "flask-sqlalchemy" %}<br />
+                        {% trans "flask-admin" %}<br />
+                        {% trans "flask-login" %}<br />
+                        {% trans "flask-wtf" %}<br />
                     </p>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-lg-4 col-xs-12 text-center text-lg-left px-5">
-                    <h5 class="header-purple text-uppercase py-3">{% trans "Django Rest Framework" %}</h5>
+                <div class="col-sm-4 col-xs-12 text-center text-lg-left px-4 px-sm-2 px-lg-5">
+                    <h5 class="header-purple text-uppercase py-3">{% trans "Rest Framework" %}</h5>
                     <p class="pb-4">
-                        {% trans "W związku z tym, że czynności cywilne wykonywane przez prokuratora wojskowego podlegały zwierzchnictwu Prokuratury Okręgowej w Gdańsku, ta zwróciła się z prośbą o przejęcie postępowania przez inną jednostkę tłumacząc to kwestią zachowania obiektywizmu." %}
+                        {% trans "API, returning JSON Data, serialization" %}
                     </p>
                 </div>
-                <div class="col-lg-4 col-xs-12 text-center text-lg-left px-5">
-                    <h5 class="header-purple text-uppercase py-3">{% trans "HTML/CSS/SCSS" %}</h5>
-                    <p class="pb-4">
-                        {% trans "W związku z tym, że czynności cywilne wykonywane przez prokuratora wojskowego podlegały zwierzchnictwu Prokuratmacząc to kwestią zachowania obiektywizmu." %}
-                    </p>
-                </div>
-                <div class="col-lg-4 col-xs-12 text-center text-lg-left px-5">
-                    <h5 class="header-purple text-uppercase py-3">{% trans "GitHub" %}</h5>
-                    <p class="pb-4">
-                        {% trans "W związku z tym, że czynności cywilne wykonywane przez prokuratora wojskowego podlegały zwierzchnictwu Prokuratury Okręgowej w Gdańsku, ta zwróciła się z prośbą o przejęcie postępowania przez inną jednostkę tłumą zachowania obiektywizmu." %}
-                    </p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-xs-12 text-center text-lg-left px-5">
+                <div class="col-sm-4 col-xs-12 text-center text-lg-left px-4 px-sm-2 px-lg-5">
                     <h5 class="header-purple text-uppercase py-3">{% trans "Bootstrap" %}</h5>
                     <p class="pb-4">
-                        {% trans "W związku z tym, że czynności cywilne wykonywane przez prokuratora wojskowego podlegały zwierzchnictwu Prokuratury Okręgowej w Gdańsku, ta zwróciła się z prośbą o przejęcie postępowania przez inną jednostkę tłumacząc to kwestią zachowania obiektywizmu." %}
+                        {% trans "Bootstrap 4 SCSS, installed to projects via npm and compiled via node-scss" %}
                     </p>
                 </div>
-                <div class="col-lg-4 col-xs-12 text-center text-lg-left px-5">
-                    <h5 class="header-purple text-uppercase py-3">{% trans "PyCharm" %}</h5>
-                    <p class="pb-4">
-                        {% trans "W związku z tym, że czynności cywilne wykonywane przez prokuratora wojskowego podlegały zwierzchnictwu Prokuratmacząc to kwestią zachowania obiektywizmu." %}
-                    </p>
-                </div>
-                <div class="col-lg-4 col-xs-12 text-center text-lg-left px-5">
+                <div class="col-sm-4 col-xs-12 text-center text-lg-left px-4 px-sm-2 px-lg-5">
                     <h5 class="header-purple text-uppercase py-3">{% trans "Wagtail" %}</h5>
                     <p class="pb-4">
-                        {% trans "W związku z tym, że czynności cywilne wykonywane przez prokuratora wojskowego podlegały zwierzchnictwu Prokuratury Okręgowej w Gdańsku, ta zwróciła się z prośbą o przejęcie postępowania przez inną jednostkę tłumą zachowania obiektywizmu." %}
+                        {% trans "Content Management System (CMS) using interchangeably with django-admin, mainly for users with no IT skills" %}
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 col-xs-12 text-center text-lg-left px-4 px-sm-2 px-lg-5">
+                    <h5 class="header-purple text-uppercase py-3">{% trans "Scrapy" %}</h5>
+                    <p class="pb-4">
+                        {% trans "Scraping elements from requested url (using css selectors), displaying them in shell or saving into file" %}
+                    </p>
+                </div>
+                <div class="col-sm-4 col-xs-12 text-center text-lg-left px-4 px-sm-2 px-lg-5">
+                    <h5 class="header-purple text-uppercase py-3">{% trans "PyCharm" %}</h5>
+                    <p class="pb-4">
+                        {% trans "I use integrated development environment (PyCharm) at work" %}
+                    </p>
+                </div>
+                <div class="col-sm-4 col-xs-12 text-center text-lg-left px-4 px-sm-2 px-lg-5">
+                    <h5 class="header-purple text-uppercase py-3">{% trans "GIT" %}</h5>
+                    <p class="pb-4">
+                        {% trans "Work according to Git Workflow, commits are assigned to branches, pull request before merging changes" %}
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 col-xs-12 text-center text-lg-left px-4 px-sm-2 px-lg-5">
+                    <h5 class="header-purple text-uppercase py-3">{% trans "Jinja2" %}</h5>
+                    <p class="pb-4">
+                        {% trans "Templates in applications with use of Jinja engine" %}
+                    </p>
+                </div>
+                <div class="col-sm-4 col-xs-12 text-center text-lg-left px-4 px-sm-2 px-lg-5">
+                    <h5 class="header-purple text-uppercase py-3">{% trans "HTML/CSS/SCSS" %}</h5>
+                    <p class="pb-4">
+                        {% trans "Responsive Web Design (RWD), projects are designed according to methodology Mobile First" %}
+                    </p>
+                </div>
+                <div class="col-sm-4 col-xs-12 text-center text-lg-left px-4 px-sm-2 px-lg-5">
+                    <h5 class="header-purple text-uppercase py-3">{% trans "Java Script" %}</h5>
+                    <p class="pb-4">
+                        {% trans "Dynamic content on pages" %}
                     </p>
                 </div>
             </div>
