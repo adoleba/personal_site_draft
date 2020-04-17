@@ -45,10 +45,14 @@
   width: 33%;
 }
 
-.bottom-black {
-  border-bottom: 2px solid black;
+.bottom-purple-thin {
+  border-bottom: 1px solid $hover-color;
   width: fit-content;
-  line-height: 2;
+  width: -moz-fit-content;
+
+  &:hover {
+    color: $hover-color;
+  }
 }
 
 .header-purple {
@@ -81,11 +85,11 @@
   background: $hover-color;
   border-color: $hover-color;
   color: #fff;
-}
 
-.btn-purple:hover {
+  &:hover {
   background: white;
   color: $hover-color
+  }
 }
 
 .btn-purple-rounded {
@@ -95,11 +99,21 @@
   color: $hover-color;
   border-radius: 40px;
   padding: 10px 20px 10px 20px;
-}
 
-.btn-purple-rounded:hover {
+  &:hover {
   background: $hover-color;
   color: white;
+  }
+}
+
+.btn-purple-border {
+  background: white;
+  border-color: $hover-color;
+  color: $hover-color;
+
+  &:hover {
+    color: $hover-color;
+  }
 }
 
 .input-error {
@@ -114,14 +128,26 @@
 
 input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 1000px white inset;
-}
 
-input:-webkit-autofill:focus {
+  &:focus{
   -webkit-box-shadow: 0 0 0 50px white inset, $input-focus-box-shadow;
+  }
 }
 
 @media (max-width: 576px) {
   .btn-responsive {
     font-size:90%;
+  }
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%237570ff' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e"); }
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%237570ff' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e"); }
+
+@media (min-width: 320px) {
+  .carousel-image {
+    height: 450px;
   }
 }
