@@ -9,6 +9,7 @@ verify_ssl = true
 django = "==3.0.4"
 django-environ = "==0.4.5"
 django-rosetta = "==0.9.3"
+psycopg2 = "==2.8.5"
 
 [requires]
-python_version = "3.8"
+python_version = "3.7"
