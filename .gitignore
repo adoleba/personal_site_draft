@@ -124,7 +124,6 @@ coverage.xml
 .pytest_cache/
 
 # Translations
-*.mo
 *.pot
 
 # Django stuff:
@@ -318,5 +317,3 @@ gen### Dropbox template
 #Database
 db
 
-#Css files
-*.css
