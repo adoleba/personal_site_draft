@@ -12,7 +12,7 @@
           <ul class="nav">
               <li class="nav-item dropdown" id="choose-language" onclick="changeLanguage()">
                   <a class="nav-link dropdown-toggle">
-                      {% trans "Choose language" %} </a>
+                      {% translate "Choose language" %} </a>
                   <div class="dropdown-menu" style="border: none; display: none" id="languages">
                       {% for language in languages %}
                           <a class="nav-link font-weight-bold" href="{% change_language language.code %}">
