@@ -2,7 +2,7 @@
   "dependencies": {
     "bootstrap-sass": "^3.4.1",
     "bootstrap-scss": "^4.3.1",
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.13.1"
   },
   "scripts": {
     "scss": "node-sass --watch static/scss -o static/css"
