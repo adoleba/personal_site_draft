@@ -1,10 +1,13 @@
 from django.conf import settings
 from django.shortcuts import render, redirect
 from django.utils import translation
+from django.views.generic.base import View
 
 
-def index(request):
-    return render(request, 'homepage/index.html')
+class IndexView(View):
+
+    def get(self, request):
+        return render(request, 'homepage/index.html')
 
 
 def set_language(request):
