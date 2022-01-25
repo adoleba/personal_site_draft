@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-04 17:04+0100\n"
+"POT-Creation-Date: 2022-01-25 13:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,8 +68,8 @@ msgstr ""
 
 #: templates/about/about.html:15
 msgid ""
-"During my education, I worked mainly with the belowing technologies/languages​​"
-"/frameworks."
+"During my education, I worked mainly with the belowe technologies/languages​​/"
+"frameworks."
 msgstr ""
 
 #: templates/about/about.html:16
@@ -79,10 +79,10 @@ msgid ""
 msgstr ""
 
 #: templates/about/about.html:23 templates/projects/projects.html:20
-#: templates/projects/projects.html:39 templates/projects/projects.html:103
-#: templates/projects/projects.html:122 templates/projects/projects.html:167
-#: templates/projects/projects.html:182 templates/projects/projects.html:247
-#: templates/projects/projects.html:264
+#: templates/projects/projects.html:40 templates/projects/projects.html:105
+#: templates/projects/projects.html:124 templates/projects/projects.html:170
+#: templates/projects/projects.html:186 templates/projects/projects.html:252
+#: templates/projects/projects.html:271 templates/projects/projects.html:335
 msgid "Python"
 msgstr ""
 
@@ -91,8 +91,8 @@ msgid "Python 3.6+"
 msgstr ""
 
 #: templates/about/about.html:29 templates/projects/projects.html:21
-#: templates/projects/projects.html:40 templates/projects/projects.html:123
-#: templates/projects/projects.html:183 templates/projects/projects.html:248
+#: templates/projects/projects.html:41 templates/projects/projects.html:125
+#: templates/projects/projects.html:187 templates/projects/projects.html:253
 msgid "Django"
 msgstr ""
 
@@ -120,12 +120,12 @@ msgstr ""
 msgid "django-rosetta"
 msgstr ""
 
-#: templates/about/about.html:41 templates/projects/projects.html:104
+#: templates/about/about.html:41 templates/projects/projects.html:106
 msgid "Flask"
 msgstr ""
 
 #: templates/about/about.html:43
-msgid "1.1"
+msgid "1.1+"
 msgstr ""
 
 #: templates/about/about.html:45
@@ -144,87 +144,128 @@ msgstr ""
 msgid "flask-wtf"
 msgstr ""
 
-#: templates/about/about.html:55
-msgid "Rest Framework"
+#: templates/about/about.html:55 templates/projects/projects.html:272
+msgid "Pyramid"
 msgstr ""
 
 #: templates/about/about.html:57
-msgid "API, returning JSON Data, serialization"
+msgid "2.0+"
 msgstr ""
 
-#: templates/about/about.html:61 templates/projects/projects.html:22
-#: templates/projects/projects.html:184
-msgid "Bootstrap"
+#: templates/about/about.html:61 templates/projects/projects.html:42
+msgid "Django Rest Framework"
 msgstr ""
 
 #: templates/about/about.html:63
-msgid ""
-"Bootstrap 4 SCSS, installed to projects via npm and compiled via node-scss"
+msgid "API, returning JSON Data, serialization"
 msgstr ""
 
-#: templates/about/about.html:67 templates/projects/projects.html:124
-msgid "Wagtail"
+#: templates/about/about.html:67
+msgid "FastApi"
 msgstr ""
 
 #: templates/about/about.html:69
+msgid "0.68+"
+msgstr ""
+
+#: templates/about/about.html:76
+msgid "Vue.js"
+msgstr ""
+
+#: templates/about/about.html:78
+msgid "3.0+"
+msgstr ""
+
+#: templates/about/about.html:82 templates/projects/projects.html:23
+#: templates/projects/projects.html:189 templates/projects/projects.html:336
+msgid "Java Script"
+msgstr ""
+
+#: templates/about/about.html:84
+msgid "Dynamic content on pages"
+msgstr ""
+
+#: templates/about/about.html:88 templates/projects/projects.html:126
+msgid "Wagtail"
+msgstr ""
+
+#: templates/about/about.html:90
 msgid ""
 "Content Management System (CMS) using interchangeably with django-admin, "
 "mainly for users with no IT skills"
 msgstr ""
 
-#: templates/about/about.html:76 templates/projects/projects.html:168
+#: templates/about/about.html:97 templates/projects/projects.html:171
 msgid "Scrapy"
 msgstr ""
 
-#: templates/about/about.html:78
+#: templates/about/about.html:99
 msgid ""
 "Scraping elements from requested url (using css selectors), displaying them "
 "in shell or saving into file"
 msgstr ""
 
-#: templates/about/about.html:82
+#: templates/about/about.html:103
 msgid "PyCharm"
 msgstr ""
 
-#: templates/about/about.html:84
+#: templates/about/about.html:105
 msgid "I use integrated development environment (PyCharm) at work"
 msgstr ""
 
-#: templates/about/about.html:88
+#: templates/about/about.html:109
 msgid "GIT"
 msgstr ""
 
-#: templates/about/about.html:90
+#: templates/about/about.html:111
 msgid ""
 "Work according to Git Workflow, commits are assigned to branches, pull "
 "request before merging changes"
 msgstr ""
 
-#: templates/about/about.html:97
+#: templates/about/about.html:118
 msgid "Jinja2"
 msgstr ""
 
-#: templates/about/about.html:99
+#: templates/about/about.html:120
 msgid "Templates in applications with use of Jinja engine"
 msgstr ""
 
-#: templates/about/about.html:103
+#: templates/about/about.html:124
 msgid "HTML/CSS/SCSS"
 msgstr ""
 
-#: templates/about/about.html:105
+#: templates/about/about.html:126
 msgid ""
 "Responsive Web Design (RWD), projects are designed according to methodology "
 "Mobile First"
 msgstr ""
 
-#: templates/about/about.html:109 templates/projects/projects.html:23
-#: templates/projects/projects.html:185
-msgid "Java Script"
+#: templates/about/about.html:130 templates/projects/projects.html:22
+#: templates/projects/projects.html:188 templates/projects/projects.html:339
+msgid "Bootstrap"
 msgstr ""
 
-#: templates/about/about.html:111
-msgid "Dynamic content on pages"
+#: templates/about/about.html:132
+msgid ""
+"Bootstrap 4 SCSS, installed to projects via npm and compiled via node-scss"
+msgstr ""
+
+#: templates/about/about.html:139
+msgid "Databases"
+msgstr ""
+
+#: templates/about/about.html:141 templates/projects/projects.html:43
+#: templates/projects/projects.html:127 templates/projects/projects.html:273
+msgid "PostgreSQL"
+msgstr ""
+
+#: templates/about/about.html:142 templates/projects/projects.html:108
+msgid "SQLAlchemy"
+msgstr ""
+
+#: templates/about/about.html:143
+msgid "Pewee"
 msgstr ""
 
 #: templates/base.html:11
@@ -235,34 +276,39 @@ msgstr ""
 msgid "Contact me"
 msgstr ""
 
-#: templates/contact/contact.html:13
+#: templates/contact/contact.html:14
 msgid ""
-"If you interested cooperation with me, please don't hesitate to contact me. "
-"You can use contact form below or via my e-mail: ania.doleba[at]wp.pl."
+"If you are interested in cooperating with me, please don't hesitate to "
+"contact me. "
 msgstr ""
 
-#: templates/contact/contact.html:36
-msgid "Name"
+#: templates/contact/contact.html:15
+msgid ""
+"You can use the contact form below or via my email: ania.doleba[at]wp.pl."
 msgstr ""
 
 #: templates/contact/contact.html:38
-msgid "E-mail"
+msgid "Name"
 msgstr ""
 
 #: templates/contact/contact.html:40
-msgid "Subject"
+msgid "E-mail"
 msgstr ""
 
 #: templates/contact/contact.html:42
+msgid "Subject"
+msgstr ""
+
+#: templates/contact/contact.html:44
 msgid "Content"
 msgstr ""
 
-#: templates/contact/contact.html:45
+#: templates/contact/contact.html:47
 msgid "Send"
 msgstr ""
 
 #: templates/contact/thank_you.html:12
-msgid "Thank you for your message."
+msgid "Thank you for the message."
 msgstr ""
 
 #: templates/contact/thank_you.html:13
@@ -290,7 +336,7 @@ msgid "CONTACT"
 msgstr ""
 
 #: templates/footer.html:35
-msgid "&copy; 2020"
+msgid "&copy; 2022"
 msgstr ""
 
 #: templates/header.html:10
@@ -333,7 +379,8 @@ msgstr ""
 
 #: templates/homepage/index.html:39
 msgid ""
-"During my education I created several projects. All of them it was my idea. "
+"During my education I created several projects. All of them it were my "
+"ideas. "
 msgstr ""
 
 #: templates/homepage/index.html:40
@@ -344,11 +391,11 @@ msgstr ""
 #: templates/homepage/index.html:41
 msgid ""
 "some of projects was designed with using Bootstrap on the base of .psd file, "
-"and some I desingned by my own, using Bootstrap."
+"and some I designed by my own, using Bootstrap."
 msgstr ""
 
 #: templates/homepage/index.html:62
-msgid "Are you interested in cooperation with me?"
+msgid "Are you interested in cooperating with me?"
 msgstr ""
 
 #: templates/navbar.html:15
@@ -361,20 +408,21 @@ msgstr ""
 
 #: templates/projects/projects.html:18
 msgid ""
-"Simple Django app, which add the same task to the Toggl account for choose "
+"Simple Django app, which adds the same task to the Toggl account for chosen "
 "dates and hours."
 msgstr ""
 
-#: templates/projects/projects.html:25 templates/projects/projects.html:44
-#: templates/projects/projects.html:108 templates/projects/projects.html:127
-#: templates/projects/projects.html:251
+#: templates/projects/projects.html:25 templates/projects/projects.html:45
+#: templates/projects/projects.html:110 templates/projects/projects.html:129
+#: templates/projects/projects.html:256 templates/projects/projects.html:341
 msgid "Go to the project"
 msgstr ""
 
-#: templates/projects/projects.html:26 templates/projects/projects.html:45
-#: templates/projects/projects.html:109 templates/projects/projects.html:128
-#: templates/projects/projects.html:170 templates/projects/projects.html:188
-#: templates/projects/projects.html:252 templates/projects/projects.html:268
+#: templates/projects/projects.html:26 templates/projects/projects.html:46
+#: templates/projects/projects.html:111 templates/projects/projects.html:130
+#: templates/projects/projects.html:173 templates/projects/projects.html:192
+#: templates/projects/projects.html:257 templates/projects/projects.html:275
+#: templates/projects/projects.html:342
 msgid "Go to Github"
 msgstr ""
 
@@ -384,135 +432,169 @@ msgstr ""
 
 #: templates/projects/projects.html:36
 msgid ""
-"Sample of cms blog with using django-admin with addidional contact page, "
-"which can be edited from admin page. "
+"Sample of cms blog using django-admin with additional contact page, which "
+"can be edited from admin page. "
 msgstr ""
 
 #: templates/projects/projects.html:37
 msgid ""
 "Posts are sorted and can be filtered in categories. Readers can leave "
-"comments. Blog has implemented API in django restframework."
+"comments. "
 msgstr ""
 
-#: templates/projects/projects.html:41
-msgid "Django Rest Framework"
+#: templates/projects/projects.html:38
+msgid "Blog has implemented API in django rest framework."
 msgstr ""
 
-#: templates/projects/projects.html:42 templates/projects/projects.html:125
-#: templates/projects/projects.html:266
-msgid "PostgreSQL"
-msgstr ""
-
-#: templates/projects/projects.html:98 templates/projects/projects.html:117
+#: templates/projects/projects.html:99 templates/projects/projects.html:119
 msgid "Company site with blog"
 msgstr ""
 
-#: templates/projects/projects.html:100
+#: templates/projects/projects.html:101
 msgid ""
 "Sample of company site with blog in Flask using Flask-admin module. Every "
 "page can be edited in flask-admin panel. "
 msgstr ""
 
-#: templates/projects/projects.html:101
+#: templates/projects/projects.html:102
 msgid ""
 "Every registered user can add posts on blog, possibility of editing other "
-"pages only for superusers. Superusers can also add new pages from defined "
-"modules."
+"pages only for superusers. "
 msgstr ""
 
-#: templates/projects/projects.html:105
+#: templates/projects/projects.html:103
+msgid "Superusers can also add new pages from defined modules."
+msgstr ""
+
+#: templates/projects/projects.html:107
 msgid "Flask-admin"
 msgstr ""
 
-#: templates/projects/projects.html:106
-msgid "SQLAlchemy"
-msgstr ""
-
-#: templates/projects/projects.html:119
+#: templates/projects/projects.html:121
 msgid ""
-"Sample of company site with blog with using Wagtail CMS. Every page can be "
-"edited in Wagtail-admin. "
+"Sample of company site with blog using Wagtail CMS. Every page can be edited "
+"in Wagtail-admin. "
 msgstr ""
 
-#: templates/projects/projects.html:120
+#: templates/projects/projects.html:122
 msgid ""
 "Admin can add own pages from defined blocks. Readers can leave comments to "
 "posts."
 msgstr ""
 
-#: templates/projects/projects.html:161
+#: templates/projects/projects.html:163
 msgid "Web scaper"
 msgstr ""
 
-#: templates/projects/projects.html:163
+#: templates/projects/projects.html:165
 msgid ""
 "Script crawling books from shop helion.pl from category set in start_urls. "
-"Books are crawled with theirs title, author, price "
 msgstr ""
 
-#: templates/projects/projects.html:164
+#: templates/projects/projects.html:166
+msgid "Books are crawled with theirs title, author, price "
+msgstr ""
+
+#: templates/projects/projects.html:167
 msgid ""
-"(or special price if there is promotion, if product is temporary "
+"(or special price if there is promotion, if product is temporarily "
 "unavailable, with this information), "
 msgstr ""
 
-#: templates/projects/projects.html:165
+#: templates/projects/projects.html:168
 msgid ""
 "price category (<50 zł, 50-100 zł, 100-150 zł, >100 zł) and saved into .csv "
 "file."
 msgstr ""
 
-#: templates/projects/projects.html:178
+#: templates/projects/projects.html:181
 msgid "Personal site"
 msgstr ""
 
-#: templates/projects/projects.html:180
-msgid ""
-"This site, Django app using Bootstrap. Page bilingual - depending on "
-"localization, users can switch languages - between polish and english."
+#: templates/projects/projects.html:183
+msgid "This site, Django app using Bootstrap. "
 msgstr ""
 
-#: templates/projects/projects.html:186
+#: templates/projects/projects.html:184
+msgid ""
+"Page bilingual - depending on localization, users can switch languages - "
+"between polish and english."
+msgstr ""
+
+#: templates/projects/projects.html:190
 msgid "RWD"
 msgstr ""
 
-#: templates/projects/projects.html:241
+#: templates/projects/projects.html:245
 msgid "Books App"
 msgstr ""
 
-#: templates/projects/projects.html:243
+#: templates/projects/projects.html:247
 msgid ""
 "Simple Django application to manage a collection of books (with their "
 "authors and categories)."
 msgstr ""
 
-#: templates/projects/projects.html:244
-msgid ""
-"The application has the ability to filter by author and category, manually "
-"add a book and import books by keywords from the Google API."
-msgstr ""
-
-#: templates/projects/projects.html:245
-msgid ""
-"Recruitment task performed to check own skills,  application's  appearane "
-"did not matter."
+#: templates/projects/projects.html:248
+msgid "The application has the ability to filter by author and category, "
 msgstr ""
 
 #: templates/projects/projects.html:249
+msgid "manually add a book and import books by keywords from the Google API."
+msgstr ""
+
+#: templates/projects/projects.html:250
+msgid ""
+"Recruitment task, which was performed to check one's own skills,  "
+"application's  appearance did not matter."
+msgstr ""
+
+#: templates/projects/projects.html:254
 msgid "Django-filter"
 msgstr ""
 
-#: templates/projects/projects.html:260
+#: templates/projects/projects.html:265
 msgid "Administration Panel"
 msgstr ""
 
-#: templates/projects/projects.html:262
+#: templates/projects/projects.html:267
 msgid ""
 "Custom admin panel for blog with use of Pyramid framework. Different "
-"permissions for authors and administrators. Project contains also simple "
-"blog view with post's filtering by categories in navbar."
+"permissions for authors and administrators. "
 msgstr ""
 
-#: templates/projects/projects.html:265
-msgid "Pyramid"
+#: templates/projects/projects.html:268
+msgid ""
+"Project also contains a simple blog view with post's filtering by categories "
+"in navbar."
+msgstr ""
+
+#: templates/projects/projects.html:328
+msgid "Shop"
+msgstr ""
+
+#: templates/projects/projects.html:330
+msgid ""
+"Sample of shop in Vue, using Bootstrap. Products can be filtered depending "
+"on category. "
+msgstr ""
+
+#: templates/projects/projects.html:331
+msgid "Users add product to cart, in cart it is possible to change quantity. "
+msgstr ""
+
+#: templates/projects/projects.html:332
+msgid "Then they fill shipping data and choose a delivery method."
+msgstr ""
+
+#: templates/projects/projects.html:333
+msgid "Data can be provided with usage of FastAPI."
+msgstr ""
+
+#: templates/projects/projects.html:337
+msgid "Vue"
+msgstr ""
+
+#: templates/projects/projects.html:338
+msgid "FastAPI"
 msgstr ""
